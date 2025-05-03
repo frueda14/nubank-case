@@ -1,0 +1,4 @@
+version: 2
+models:
+  - name: int_transactions_enriched
+    description: "transactions with sign and reversals netted"

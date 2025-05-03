@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: raw
+    database: NUBANK_CASE
+    schema: RAW
+    tables:
+      - name: accounts
+      - name: transactions
+      - name: calendar

@@ -1,0 +1,9 @@
+version: 2
+models:
+  - name: account_monthly_balance
+    description: "closing balance per account per month"
+    columns:
+      - name: account_id
+        tests: [not_null]
+      - name: month
+        tests: [not_null]
