@@ -1,9 +1,20 @@
 version: 2
+
 sources:
   - name: raw
     database: NUBANK_CASE
     schema: RAW
     tables:
-      - name: accounts
-      - name: transactions
-      - name: calendar
+      - name: ACCOUNTS
+      - name: CUSTOMERS
+      - name: CITY
+      - name: STATE
+      - name: COUNTRY
+      - name: D_TIME
+      - name: D_MONTH
+      - name: D_WEEK
+      - name: D_WEEKDAY
+      - name: D_YEAR
+      - name: PIX_MOVEMENTS
+      - name: TRANSFER_INS
+      - name: TRANSFER_OUTS
