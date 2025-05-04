@@ -1,7 +1,10 @@
 version: 2
 models:
   - name: stg_accounts
-    description: "cleaned accounts table"
     columns:
       - name: account_id
+        tests: [unique, not_null]
+  - name: stg_customers
+    columns:
+      - name: customer_id
         tests: [unique, not_null]
