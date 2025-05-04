@@ -8,6 +8,6 @@ select
     to_timestamp_ntz(pix_requested_at / 1000)  as requested_ts,
     try_to_timestamp_ntz(pix_completed_at)     as completed_ts,
     status,
-    in_or_out            as direction          -- 'IN' | 'OUT'
+    in_or_out            as direction          -- 'pix_in' | 'pix_out'
 from src
 where status = 'completed'
