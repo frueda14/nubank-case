@@ -7,9 +7,9 @@ The objective is to build a reliable, production-ready pipeline that delivers th
 
 ## 🧠 Business context
 
-Understanding how much money customers keep in their accounts—and how that changes over time—is key for:
+Understanding how much money customers keep in their accounts and how that changes over time is key for:
 
-- Segmenting high-value or at-risk customers  
+- Segmenting high value or at risk customers  
 - Powering growth, retention, and risk models  
 - Reconciling financial data across teams
 
