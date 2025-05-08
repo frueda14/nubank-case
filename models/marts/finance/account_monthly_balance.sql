@@ -1,6 +1,6 @@
 {{ 
     config(materialized='incremental',
-           unique_key='account_id||month',
+           unique_key=['account_id', 'month'],
            incremental_strategy='merge'
           ) 
 }}
