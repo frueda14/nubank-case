@@ -36,3 +36,5 @@ models:
       +materialized: table
     marts:
       +schema: mart
+    python:
+      +materialized: table
